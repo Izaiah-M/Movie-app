@@ -1,0 +1,20 @@
+{
+  "git.ignoreLimitWarning": true,
+
+  // prettier
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // configure git-bash (windows-only for git-bash users)
+  "terminal.integrated.profiles.windows": {
+    "Git Bash": {
+      "path": "C:\\Program Files\\Git\\bin\\bash.exe",
+      "args": ["-l", "-i"]
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Git Bash"
+}
